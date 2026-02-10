@@ -1,6 +1,6 @@
 * Iris FastAPI – ML Model as API
 
-**Opis projektu
+a)Opis projektu
 
 Projekt przedstawia prosty system sztucznej inteligencji udostępniony jako usługa webowa (API).  
 System wykorzystuje wcześniej wytrenowany model uczenia maszynowego do klasyfikacji danych ze zbioru Iris.
@@ -14,14 +14,14 @@ Projekt łączy elementy:
 - zarządzania środowiskiem przy użyciu narzędzia 'uv'.
 
 
-***Wymagania
+b)Wymagania
 
 - Python 3.10+
 - uv 
 
 
 
-****Instalacja i przygotowanie środowiska
+c)Instalacja i przygotowanie środowiska
 
 1. Sklonuj repozytorium:
 
