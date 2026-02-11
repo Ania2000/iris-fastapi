@@ -8,6 +8,10 @@ app = FastAPI(title="Iris ML API", version="0.1.0")
 
 iris_model = IrisModel()
 
+@app.get("/")
+def root():
+    return {"message": "Iris FastAPI works. Go to /docs"}
+
 
 @app.on_event("startup")
 def startup_event() -> None:
