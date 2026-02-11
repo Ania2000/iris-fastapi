@@ -11,7 +11,7 @@ iris_model = IrisModel()
 
 @app.on_event("startup")
 def startup_event() -> None:
-    # Ładujemy model raz przy starcie serwera (nie trenujemy!)
+    
     iris_model.load()
 
 
@@ -38,3 +38,4 @@ def model_missing_handler(_, exc: FileNotFoundError):
         status_code=500,
         content={"error": str(exc)},
     )
+
